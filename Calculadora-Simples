@@ -14,15 +14,15 @@ def calculadora():
         resultado = numeroA + numeroB
         print("O resultado da soma é: ", resultado)
         calculadora()
-    if operacao == '-':
+    elif operacao == '-':
         resultado = numeroA - numeroB
         print("O resultado da subtração é: ", resultado)
         calculadora()
-    if operacao == '/':
+    elif operacao == '/':
         resultado = numeroA / numeroB
         print("O resultado da divisão é: ", resultado)
         calculadora()
-    if operacao in ('*', 'x', 'X'):
+    elif operacao in ('*', 'x', 'X'):
         resultado = numeroA * numeroB
         print("O resultado da multiplicação é: ", resultado)
         calculadora()
