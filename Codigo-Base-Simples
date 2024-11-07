@@ -1,0 +1,11 @@
+# Comentário: Este é um exemplo de comentário em Python
+
+# Definindo variáveis. Lembrando que NÃO precisamos dizer qual é o tipo da variável no Python quando criamos elas :)
+nome = "Anna"
+idade = 28
+altura = 1.70
+
+# Imprimindo variáveis no terminal :)
+print("Nome:", nome)
+print("Idade:", idade)
+print("Altura:", altura)
