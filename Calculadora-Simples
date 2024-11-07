@@ -1,0 +1,30 @@
+def calculadora():
+    print("-- CALCULADORA EM PYTHON --")
+    print("-- SE QUISER FINALIZAR, DIGITE 0")
+    numeroA = float(input("Digite o primeiro número: "))
+
+    if numeroA == 0:
+        print("Você finalizou o script")
+        exit()
+
+    operacao = str(input("Digite a operação: "))
+    numeroB = float(input("Digite o segundo número: "))
+
+    if operacao == '+':
+        resultado = numeroA + numeroB
+        print("O resultado da soma é: ", resultado)
+        calculadora()
+    if operacao == '-':
+        resultado = numeroA - numeroB
+        print("O resultado da subtração é: ", resultado)
+        calculadora()
+    if operacao == '/':
+        resultado = numeroA / numeroB
+        print("O resultado da divisão é: ", resultado)
+        calculadora()
+    if operacao in ('*', 'x', 'X'):
+        resultado = numeroA * numeroB
+        print("O resultado da multiplicação é: ", resultado)
+        calculadora()
+
+calculadora()
