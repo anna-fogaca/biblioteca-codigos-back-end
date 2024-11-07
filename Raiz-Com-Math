@@ -1,0 +1,7 @@
+import math
+def calcula_raiz(numero):
+    resultado = math.sqrt(numero)
+    print("Resultado da raiz é: ", resultado)
+
+numero = int(input("Qual o número que você deseja calcular a raiz: "))
+calcula_raiz(numero)
