@@ -1,0 +1,12 @@
+# Função para calcular o fatorial
+def fatorial(numero):
+    resultado = 1
+    while numero > 1:
+        resultado *= numero
+        numero -= 1
+    return resultado
+numero = int(input("Digite um número (inteiro): "))
+if numero >= 0:
+    print(f"O fatorial de {numero} é {fatorial(numero)}")
+else:
+    print("Por favor, insira um número inteiro positivo.")
