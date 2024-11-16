@@ -1,0 +1,21 @@
+def calculadora(numero1, numero2, operador):
+    if operador == '+':
+        return numero1 + numero2
+    elif operador == '-':
+        return numero1 - numero2
+    elif operador == '*':
+        return numero1 * numero2
+    elif operador == '/':
+        if numero2 != 0:
+            return numero1 / numero2
+        else:
+            return "Erro: divisão por zero"
+    else:
+        return "Operador inválido"
+
+n1 = float(input("Digite o primeiro número: "))
+n2 = float(input("Digite o segundo número: "))
+op = input("Digite o operador (+, -, *, /): ")
+
+resultado = calculadora(n1, n2, op)
+print(f"Resultado: {resultado}")
