@@ -1,0 +1,18 @@
+# BIBLIOTECAS E A IMPORTÂNCIA -> PIP 
+import pygame
+import sys
+# Inicializa o PyGAME - Biblioteca de games
+pygame.init()
+
+tela = pygame.display.set_mode((400, 300))
+pygame.display.set_caption("Oi, mundo!")
+
+rodando = True
+while rodando:
+    for evento in pygame.event.get():
+        if evento.type == pygame.QUIT:
+            rodando = False 
+    tela.fill((0, 200, 255))
+    pygame.display.update()
+
+pygame.quit()
