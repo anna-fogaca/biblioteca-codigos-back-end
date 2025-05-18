@@ -1,0 +1,25 @@
+def cadastro_aluno(nome, turma, cgm):
+    print("\n✅ O aluno foi cadastrado com sucesso!")
+    opcao = input("Deseja ver o cadastro? Digite 'S' ou 's' para ver: ").strip().lower()
+    
+    if opcao == 's':
+        print("\nDados do aluno:")
+        print(f" - Nome: {nome}")
+        print(f" - Turma: {turma}")
+        print(f" - CGM: {cgm}")
+    else:
+        print("\nFinalizando sistema.")
+
+# Entrada de dados do usuário
+nome = input("Digite o nome do aluno: ").strip().title()
+turma = input("Digite a turma do aluno: ").strip().upper()
+
+# Validação básica para o CGM
+while True:
+    try:
+        cgm = int(input("Digite o CGM do aluno (apenas números): "))
+        break
+    except ValueError:
+        print("Por favor, digite apenas números para o CGM.")
+
+cadastro_aluno(nome, turma, cgm)
