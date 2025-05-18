@@ -1,0 +1,18 @@
+# LISTA DE ITENS
+# "Uva" é o item 0 (zero)
+frutas = ["Uva", "Pêra", "Manga", "Maçã", "Pitaya", "Melancia"]
+numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+print("Lista de frutas:", frutas)
+print("Lista de números:", numeros)
+
+# TUPLA: UMA LISTA IMUTÁVEL (NÃO PODE SER ALTERADA DEPOIS DE CRIADA)
+professores = ("Anna", "João", "André")
+print("Professores:", professores)
+
+# DICIONÁRIO: CHAVE E VALOR, COMO UMA PALAVRA E SEU SIGNIFICADO
+professor = {
+    "nome": "Anna",     
+    "idade": 25
+}
+print("Informações do professor:", professor)
