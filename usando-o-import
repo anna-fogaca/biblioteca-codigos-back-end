@@ -1,0 +1,14 @@
+# import -> importar
+# estamos puxando o código de outro programador para o nosso
+# p/ acessar o terminal ctrl + ' (aspas)
+import math 
+numero = float(input("Digite um número: "))
+# raiz quadrada
+raiz = math.sqrt(numero) # numero * 0.5
+print(f"A raiz do número {numero} é: {raiz}")
+
+# seno (em radianos)
+angulo1 = float(input("Qual SENO você quer descobrir? "))
+angulo2 = math.radians(angulo1)
+seno = math.sin(angulo2)
+print(f"O seno de {angulo1}° é: {seno}")
