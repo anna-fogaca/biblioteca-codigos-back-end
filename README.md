@@ -4,7 +4,7 @@
 [![Disciplina](https://img.shields.io/badge/disciplina-Programação%20Back--End-blueviolet)]()
 [![Contribuições](https://img.shields.io/badge/contribuições-bem%20vindas-yellowgreen)]()
 
-> Exemplos práticos, código comentado e aquele toque de sarcasmo pedagógico ✨
+> Exemplos práticos, código comentado e aquele toque de fofura da profª Anna :) ✨
 
 ---
 
